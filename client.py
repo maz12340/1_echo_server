@@ -1,7 +1,7 @@
 import socket
 from time import sleep
 
-port=int(input("port:"))
+port=int(input("Port to Server:"))
 sock = socket.socket()
 sock.setblocking(1)
 sock.connect(('localhost', port))
